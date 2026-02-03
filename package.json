@@ -6,9 +6,9 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/web-projects-blog-starter/",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/",
 		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy --pathprefix=/web-projects-blog-starter/ --serve --quiet"
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/ --serve --quiet"
 	},
 	"repository": {
 		"type": "git",
