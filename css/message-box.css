@@ -6,6 +6,8 @@
 	background-color: var(--color-message-box);
 	color: var(--color-gray-90);
 	padding: 1em 0.625em; /* 16px 10px /16 */
+	width: 50em;
+	border: solid 1px;
 }
 .message-box ol {
 	margin-top: 0;
