@@ -23,6 +23,10 @@ nav{
 }
 #site-name{
     font-weight: 600;
+    padding-left: 15px;
+}
+#site-name:hover{
+    text-decoration: underline;
 }
 #nav-links > a{
     text-decoration: underline;
