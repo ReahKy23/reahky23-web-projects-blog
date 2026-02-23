@@ -32,7 +32,7 @@ With this project however, I had to actually deep dive into the frameworks being
 
 1. ### Eleventy 
 - Like mentioned before, when I first started developing my blog, I first watched the quick quick **[eleventy tutorial](https://www.youtube.com/watch?v=kzf9A9tkkl4)** that was shared with us. I think those 6 minutes helped me understand the framework in its most basic form. So I started chaning/ deleting files in my project that I didn't need based on the video and the eleventy website's tutorials. That started with me cleaning out the index.njk and base.njjk pages.
-2. ### Nunchucks (njk)
+2. ### Nunjucks (njk)
 - Njk was kind of similar to handlebars which made it a little easy to get through. But if I'm being totally honest. I just tried to match the look my code to the look of the template code we were given. I worked out of this VS file and **[another](https://www.are.na/block/43852790)** so that I would mess with this version too much. Once I felt the njk files matched the original html layout I had I felt satisfied. I definitely still need to understand njk more though. 
 
 3. ### Markdown Syntax
