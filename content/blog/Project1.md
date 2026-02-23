@@ -33,7 +33,7 @@ With this project however, I had to actually deep dive into the frameworks being
 - Like mentioned before, when I first started developing my blog, I first watched the quick quick **[eleventy tutorial](https://www.youtube.com/watch?v=kzf9A9tkkl4)** that was shared with us. I think those 6 minutes helped me understand the framework in its most basic form. So I started chaning/ deleting files in my project that I didn't need based on the video and the eleventy website's tutorials. That started with me cleaning out the index.njk and base.njjk pages.
 2. ### Nunchucks (njk)
 3. ### Markdown Syntax
-- I worked with markdown language in the past with Readme files but I lot of the times they were templates that I would just have to insert my answers into. But, that small exposure to the language still helped in navigating through it. I also learned that Eleventy allows for <ins>html</ins> syntax as well so anything I could find in my **[markdown cheatsheet]()** I just used html to fix instead. 
+- I worked with markdown language in the past with Readme files but I lot of the times they were templates that I would just have to insert my answers into. But, that small exposure to the language still helped in navigating through it. I also learned that Eleventy allows for <ins>html</ins> syntax as well so anything I could find in my **[markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)** I just used html to fix instead. 
 
 
 
