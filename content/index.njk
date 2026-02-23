@@ -48,7 +48,7 @@ title: (de)bugged out blog
         />
         <h3>{{ post.data.title }}</h3>
         <div class="post-info">
-          <h4>{{ post.data.category or "post" }} |</h4>
+          <h4>{{ post.data.category or "post" }} |</h4> 
           <h4>&nbsp;{{ post.date | readableDate }}</h4>
         </div>
         <p>{{ post.data.description or post.templateContent | truncate(120) }}</p>

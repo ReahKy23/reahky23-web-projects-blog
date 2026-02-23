@@ -2,9 +2,9 @@
 layout: layouts/post.njk
 title: (de)bugged out blog
 description: This is the breakdown for my creating my first dev blog site using Eleventy and NJKs
-category: Project 1
-image: "https://kagi.com/proxy/hq720.jpg?c=-4THVYblKrsgkzFTNEfJ5pZg8HzmOnmwQllY4HWO6csGsC7tzqdCzKlcUMAJLPQHR-piDydodTojdfvTRpcmcTfhaVBWFmEIiVM6LMiLvVmIA1ifPpmi8Uo1mlezpND7FElIDftQlP2rtayrth2L4PeBkm4CN8j2zi8-LThJpPtynFRr3LNRygbZTRXyW4y9PhaRubyI60ze3VWP1PWUjA%3D%3D"
-tags: ["starter", "these are tags for your posts"]
+category: Project
+image: "https://i.pinimg.com/736x/a0/72/9f/a0729f9fe136d802da68052694ec63c8.jpg"
+tags: ["project"]
 ---
 
 # My First Dev Blog Ever?!
