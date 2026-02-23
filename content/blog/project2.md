@@ -15,7 +15,9 @@ For the second project of the semester, my group members and I decided to use an
 
 **On the back end:** we are taking a movie quote from the moviequote API and passing it through another API that turns it into yoda-speech. That resulting text would be assigned as the card's meaning.
 
+## My role:
+- In this project I will be in charge of the API integration on the backend. 
 ## Links
-1. <a href="https://judyzhang05.github.io/web-design-blog/blog/project2/" target="_blank">Judy's blog</a>
+1. **<a href="https://judyzhang05.github.io/web-design-blog/blog/project2/" target="_blank">Judy's blog</a>**
 
-2. <a href="https://shasunal.github.io/shasunagarden/blog/project2/" target="_blank">Shasuna's Blog</a>
+2. **<a href="https://shasunal.github.io/shasunagarden/blog/project2/" target="_blank">Shasuna's Blog</a>**
