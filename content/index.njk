@@ -1,26 +1,62 @@
----js
-const eleventyNavigation = {
-	key: "Home",
-	order: 1
-};
-
-const numberOfLatestPostsToShow = 3;
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+layout: layouts/base.njk
+title: (de)bugged out blog
+---
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+<!-- sidebar content goes here -->
+<section id="sidebar">
+  <div id="about" class="sidebar-content">
+    <h2 class="section-title">About</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur
+      adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae
+      pellentesque sem placerat in id. Placerat in id cursus mi pretium
+      tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+    </p>
+  </div>
+  <div class="sidebar-content">
+    <h2 class="section-title">Categories</h2>
+    <ul>
+      <li class="sb-important">All</li>
+      <li>Readings</li>
+      <li>Projects</li>
+      <li>Etc</li>
+    </ul>
+  </div>
+  <div class="sidebar-content">
+    <h2 class="section-title">More</h2>
+    <ul>
+      <a href="https://callmeky.dev"><li class="sb-important">My Portfolio</li></a>
+      <a href=""><li>Github</li></a>
+    </ul>
+  </div>
+</section>
 
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
+<!-- blog post grid -->
+<section id="blog">
+  <h2 class="section-title">MY WORK</h2>
+  <div class="post-grid">
+
+    {% for post in collections.posts | reverse %}
+    <a href="{{ post.url }}" class="card-link">
+      <div class="card">
+        <img
+          src="{{ post.data.image or '' }}"
+          alt="{{ post.data.title }}"
+          class="post-img"
+        />
+        <h3>{{ post.data.title }}</h3>
+        <div class="post-info">
+          <h4>{{ post.data.category or "post" }} |</h4>
+          <h4>&nbsp;{{ post.date | readableDate }}</h4>
+        </div>
+        <p>{{ post.data.description or post.templateContent | truncate(120) }}</p>
+      </div>
+    </a>
+    {% else %}
+    <p>No posts yet — check back soon!</p>
+    {% endfor %}
+
+  </div>
+</section>

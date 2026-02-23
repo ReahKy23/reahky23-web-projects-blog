@@ -1,27 +1,54 @@
 ---
 layout: layouts/base.njk
 ---
-{# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
-<style>{% include "css/style.css" %}</style>
-<h1>{{ title }}</h1>
 
-<ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
+{% block content %}
 
-{{ content | safe }}
+<section id="sidebar">
+  <div id="about" class="sidebar-content">
+    <h2 class="section-title">About</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur
+      adipiscing elit quisque faucibus ex sapien vitae.
+    </p>
+  </div>
+  <div class="sidebar-content">
+    <h2 class="section-title">Categories</h2>
+    <ul>
+      <li class="sb-important"><a href="/">All</a></li>
+      <li>Readings</li>
+      <li>Projects</li>
+      
+      <li>Etc</li>
+    </ul>
+  </div>
+  <div class="sidebar-content">
+    <h2 class="section-title">More</h2>
+    <ul>
+      <a href="/portfolio/"><li class="sb-important">My Portfolio</li></a>
+      <a href="https://github.com"><li>Github</li></a>
+    </ul>
+  </div>
+</section>
 
-{%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-	{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
+<section id="blog">
+  <article class="post-full">
+    {% if image %}
+    <img src="{{ image }}" alt="{{ title }}" class="post-img post-img--full" />
+    {% endif %}
+
+    <h2>{{ title }}</h2>
+    <div class="post-info">
+      <h4>{{ category or "post" }} |</h4>
+	  <h4>&nbsp;{{ post.date | readableDate }}</h4>
+    </div>
+
+    <div class="post-body">
+      {{ content | safe }}
+    </div>
+
+    <p><a href="/">← Back to all posts</a></p>
+  </article>
+</section>
+
+{% endblock %}
