@@ -7,29 +7,22 @@ layout: layouts/base.njk
 <section id="sidebar">
   <div id="about" class="sidebar-content">
     <h2 class="section-title">About</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur
-      adipiscing elit quisque faucibus ex sapien vitae.
+   <p>
+     Hello there! I'm Kylah. I'm a UI developer based in NYC.
+	 I combine my anthropology background to web design to design
+	 and develop web apps that are both interactive and accessibile.
     </p>
   </div>
   <div class="sidebar-content">
-    <h2 class="section-title">Categories</h2>
+    <h2 class="section-title">Posts</h2>
     <ul>
-      <li class="sb-important"><a href="/">All</a></li>
-      <li>Readings</li>
-      <li>Projects</li>
-      
-      <li>Etc</li>
+      {% for post in collections.posts | reverse %}
+      <li class="{% if post.url == page.url %}sb-important{% endif %}">
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </li>
+      {% endfor %}
     </ul>
   </div>
-  <div class="sidebar-content">
-    <h2 class="section-title">More</h2>
-    <ul>
-      <a href="/portfolio/"><li class="sb-important">My Portfolio</li></a>
-      <a href="https://github.com"><li>Github</li></a>
-    </ul>
-  </div>
-  <p><a href="/">← Back to all posts</a></p>
 </section>
 
 <section id="blog">
@@ -42,7 +35,7 @@ layout: layouts/base.njk
     
     <div class="post-info">
       <h4>{{ category or "post" }} |</h4>
-	  <h4>&nbsp;{{ post.date | readableDate }}</h4>
+	  <h4>&nbsp;{{ page.date | readableDate }}</h4>
     </div>
 
     <div class="post-body">
