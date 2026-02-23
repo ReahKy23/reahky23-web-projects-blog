@@ -29,15 +29,17 @@ layout: layouts/base.njk
       <a href="https://github.com"><li>Github</li></a>
     </ul>
   </div>
+  <p><a href="/">← Back to all posts</a></p>
 </section>
 
 <section id="blog">
   <article class="post-full">
+  <h2>{{ title }}</h2>
     {% if image %}
     <img src="{{ image }}" alt="{{ title }}" class="post-img post-img--full" />
     {% endif %}
 
-    <h2>{{ title }}</h2>
+    
     <div class="post-info">
       <h4>{{ category or "post" }} |</h4>
 	  <h4>&nbsp;{{ post.date | readableDate }}</h4>
@@ -47,7 +49,7 @@ layout: layouts/base.njk
       {{ content | safe }}
     </div>
 
-    <p><a href="/">← Back to all posts</a></p>
+
   </article>
 </section>
 
