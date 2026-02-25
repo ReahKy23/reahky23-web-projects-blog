@@ -1,0 +1,4 @@
+.aboutpage{
+    display: flex;
+    flex-direction: column;
+}
