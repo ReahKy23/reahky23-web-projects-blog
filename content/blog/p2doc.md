@@ -27,6 +27,7 @@ Live Site **[link](http://167.172.146.126:3000)**
 1. ### My role as the backend developer:
 
 - For this project I was in charge of connecting the **[API](https://forismatic.com/en/api/?ref=apilist.fun)** to the project so that we could dispaly the quotes from the inspiration API. At first we were using a movie quote API, but due to a paywall we pivoted to using an inspirational quote API instead. It worked out in the end. 
+- For the most part I used a lot of the class demos to structur the code for this project. I found using nunjucks made passing in the information from the database pretty easy. I will say github pull requests could be annoyign at times: when branches would time out/ sometimes we'd have merge issue because the data.db file had content
 <br>
 
 2. ### Some challenges I experienced:
