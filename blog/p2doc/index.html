@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Great Yodini - Project 2</title>
+    <title>The Great Yodini (P2)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
     <ul>
       
       <li class="sb-important">
-        <a href="/reahky23-web-projects-blog/blog/p2doc/">The Great Yodini - Project 2</a>
+        <a href="/reahky23-web-projects-blog/blog/p2doc/">The Great Yodini (P2)</a>
       </li>
       
       <li class="">
@@ -75,9 +75,9 @@
 
 <section id="blog">
   <article class="post-full">
-  <h2 id="the-great-yodini-project-2">The Great Yodini - Project 2</h2>
+  <h2 id="the-great-yodini-p2">The Great Yodini (P2)</h2>
     
-    <img src="content/public/assets/GreatYodini.jpeg" alt="The Great Yodini - Project 2" class="post-img post-img--full">
+    <img src="content/public/assets/GreatYodini.jpeg" alt="The Great Yodini (P2)" class="post-img post-img--full">
     
 
     
@@ -106,7 +106,7 @@
 </li>
 </ol>
 <ul>
-<li>For this project I was in charge of connecting the API to the project so that we could dispaly the quotes from the inspiration API. At first we were using a movie quote API, but due to a paywall we pivoted to using an inspirational quote API instead. It worked out in the end.
+<li>For this project I was in charge of connecting the <strong><a href="https://forismatic.com/en/api/?ref=apilist.fun">API</a></strong> to the project so that we could dispaly the quotes from the inspiration API. At first we were using a movie quote API, but due to a paywall we pivoted to using an inspirational quote API instead. It worked out in the end.
 <br></li>
 </ul>
 <ol start="2">
@@ -115,7 +115,18 @@
 </li>
 </ol>
 <ul>
-<li>Some challenges I faced during this project was getting multiple quotes from the API. The API was beginner friendly which was</li>
+<li>
+<p><strong>Quote Dupliactes</strong></p>
+<ul>
+<li>Some challenges I faced during this project was getting multiple quotes from the API. The API was beginner friendly which was helpful but I still ran into an issue where it would spit out the same three quotes to the database. Ideally the code was meant to pass in three separate random quotes from the API this was meant to be the &quot;meanings&quot; for each of their cards. However, I was using Math.random() in js and sometimes it would be just start passing in the same quote. So to fix that: each quote in the API is assigned a numeric key, so I tweaked the code to pull three random keys insteads. That way the chances of duplicates is lower.</li>
+</ul>
+</li>
+<li>
+<p><strong>Fortune Bugs</strong></p>
+</li>
+<li>
+<p>Due to time constraints my group and I decided to simulate randomness. So we are pulling two things from the user: their name and their conecern. But we are giving them 5 things in return: their name, concern, 3 cards and their meaning, and a final verdict. The bug that arises comes form the fact that we didn't use cookies to spit this information back at them. We didnt feel comfortable using cookies. So instead, I just used database.render() to spit out the last entry to the databse. It worked for awhile but then it seemed that if we didn't empty out the database before a new entry it would spit out whatever was the last entry. To fix that issue I created a button that clears the database when the user finishes. However, there isn't any logic preventing the user to just click out the window and if they don't click the button then the bug may continue. So maybe in the future I could implement some sort of cookies functionality/ using the database &quot;id&quot; to spit out user-specific information instead.</p>
+</li>
 </ul>
 
     </div>
