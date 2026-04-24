@@ -9,7 +9,7 @@ tags: ["concept"]
 ---
 ## Members' Blogs** 
 1. [Gabby](https://gabasha00.github.io/gabs-web-design-blog/)
-2. [Ivy]()
+2. [Ivy](https://portorfolio.github.io/blog/blog/project3plan/)
 
 ## Important Project Links 
 1. [Figma Board](https://www.figma.com/design/5L5WjvP0NLuREKaLcbHYq6/Web-Proj3-Sketch-Wireframe?node-id=25-23&t=3xk2joBqTd9INdXp-1)
