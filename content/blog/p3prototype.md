@@ -11,7 +11,7 @@ tags: ["prototype"]
 ## Project 3 Prototype
 
 1. **Important Links**
-- [Prototype Link](https://www.figma.com/design/5L5WjvP0NLuREKaLcbHYq6/Web-Proj3-Sketch-Wireframe?node-id=51-2)
+- [Prototype Link](https://www.figma.com/proto/5L5WjvP0NLuREKaLcbHYq6/Web-Proj3-Sketch-Wireframe?node-id=52-41&viewport=-725%2C-600%2C0.52&t=y101baGVkfmq4WRj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=52%3A41&page-id=51%3A2&show-proto-sidebar=1)
 - [Github Repo](https://github.com/ReahKy23/Interlinked)
 
 2. **Documentation**
