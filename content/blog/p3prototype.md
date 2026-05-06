@@ -22,4 +22,6 @@ For this prototype I also built out the prototype (the deisign and interactions)
 3. **Questions for the class**
 - We originally thought about having "idea clustsers" where the more a category is chosen it woul dget larger rather than seing each individual "star" on it's on. Should we use the larger cluster idea or do you think the chaos of seeing the individual stars connected is better?
 
-- 
+- How many categories do you think we should limit the multi-select categories to? At thhe moment we are thinking between 2 or 3 max. 
+
+- Should we include an opening scene that explains the worldbuilding of the site? 
