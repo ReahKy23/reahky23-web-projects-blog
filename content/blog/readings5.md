@@ -1,0 +1,12 @@
+---
+layout: layouts/post.njk
+title: Reading Set 5
+description: This is my response to the fourth set of assigned readings
+date: 2026-04-29
+image: "https://substackcdn.com/image/fetch/$s_!yWQa!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4e0102a-11b0-437b-80e2-eeed8a8ac2a1_3840x2160.png"
+category: Reading
+tags: ["readings"]
+---
+I think these readings, in their own right, build upon a common point that we've spoken about throughout the semester: The internet is not neutral. I think as a collective culture we like to treat the internet as this net-neutral landscape that the use warps through their own biases. However, we've seen instances, time and time again, through these readings that the internet' very infrastructure has real life impact on how gets to live on the internet. Whether that has more to do with people leaving online-platforms because bot-proliferation make interacting with the space insufferable. It is becoming increasingly harder to knowingly interact with a human on these applications. People can't just drift through the iternent anymore. Sites are always having user "on," to not be would be to waste time and money. It's almost like the internet is seen for commerce first and foremost theese days. To want otherwise is then seen as juvenile. It is quite clear that money-forward initiatives are becoming the norm and communicaiton and communicuty driven intiatives are being push to the back whether through lack of awareness or being priced out due to hosting costs.
+
+On the hosting front, it is interesting to see that a domain can outlive its origin country, and with it the online artifacts. There's a concern to be address in the fact that cultural artifacts like internet communities can be lost because a foreign organization on the other side of the world decided that the domain should no longer exist. I think ther is something to note too that a lot of the time, people are not aware of the possible future changes that could arise when choosing a domain name. In truth, when I chose my domain name I did't take into account where the ".online" or".dev" domain even comes from. In the intance of Tuvalu, the country is onsest to be fully submerged under water in the coming decades. They're domain get a lot of traffic from companies becuase of the ".tv" ending and yet their real world concerns and outcrys goes ignored. 
