@@ -25,3 +25,6 @@ tags: ["prototype"]
 - How many categories do you think we should limit the multi-select categories to? At thhe moment we are thinking between 2 or 3 max. 
 
 - Should we include an opening scene that explains the worldbuilding of the site? 
+
+- Any specific libraries or resources that could be helpful? especially with the stars and lines connecting them
+- How does navigation feel? What would you like to see be added/removed?
