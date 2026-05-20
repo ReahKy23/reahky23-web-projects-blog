@@ -9,12 +9,12 @@ tags: ["documentation"]
 ---
 
 ## Project Links
-1. Live Project **[link]()**
+1. Live Project **[link](http://161.35.125.196:7001/)**
 
 
 2. *Group Member's blogs:*
   - - Gabby's Blog Site **[link]()**
-  - - Ivy Blog Site **[link]()**
+  - - Ivy Blog Site **[link](https://portorfolio.github.io/blog/blog/project3/)**
 
 ## Project Overview
 
