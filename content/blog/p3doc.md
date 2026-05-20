@@ -27,15 +27,19 @@ This general story behing our project, is that this automous computer, "Mutha" h
 2. Project prototype and design
    - I created a high-fidelity mockup of the goal interactions for this project. I had a more creative role in this project compared to Project 3. I had fun pulling differnet backgrounds and textures together to sell this "space" look. I think it also has an retroness to it that makes it look like it has been lost for years.
 3. Front-end assets and interactions
+   - Cookies
+      - I integrated Express session and cookies into the site on the server.js so that each cookie is assigned a unique id. This was meant to be used for deleted capabilities, but that had to be tabled due to git conflicts. However, the server.js would check to see if a cookie exists for that user. If a cookie exists the "contribute" and "explore" button will show because the user would already know the background story of the site. 
+      If a cookie does not exist those buttons will be hidden and the user will have to click on the computer to navigate through the site. Then on reload the buttons will appear. 
    - Html Form
-   - Map hover js
+      - I did the the html and css for the html form. I also connected the values on the backend so that the information will pass into the post nedb database. 
+   - Map text overlay
+      - I did the js for the text overlay that happens when a user's post includes the optional caption. I really like this detail because it breaks up the modal and makes the project feel as though it takes up more space on the screen.
    - Overall Site Css
 
 ### Project Challenges
 
 1. Git being Git
-   - we were supposed to have a cookies implementation that would show only the computer on load when the user opens the site, but git was starting to be funny and rebasing would revert my code to a much removed older version of the code. It got to a point that I had to clone the repo to my computer **twice** to work around what was going on. Though I know it wasnt safe, it got to a point that I was just working on main, and I would share what I was adding/ doing to my members before pushin it.
-
+   - we were supposed to have a cookies implementation that would allow users to delete their post/star if the unique session id matched. However, git started giving us trouble and the star nodes were very sensitive. Though I would have loved to have had that feature, I think that is something that can be added in future iterations of this project. 
 ### Future Iterations
 
 1. Sound elements, It would be cool if there was a sound element in the back of the window
@@ -45,7 +49,11 @@ This general story behing our project, is that this automous computer, "Mutha" h
 3. It would be really cool to implement a virtual keyboard. I did have one called kioskboard and it was working in terms of the text showing up on screen and in the database on the back end. The only issue is that I couldn't manipulate the css. I was literally trying for 45 minutes to see what css classes were and trid chaning teh attributes but it wasnt working. So i forewent the virtual keyboard element.
 
 **project resource links**
-https://www.w3schools.com/tags/tag_fieldset.asp
-virtual keyboard: https://furcan.github.io/KioskBoard/
-border style video : https://furcan.github.io/KioskBoard/
-font website (tomorrow font) https://www.figma.com/resource-library/futuristic-fonts/
+1. class notes:
+- [Class 7 cookies integration](https://github.com/samheckle/hunter-web-design-projects-sp-26/blob/main/class-notes/cookie-session/server.js)
+- [Cookies and Express Sessions](https://github.com/samheckle/hunter-web-design-projects-sp-26/blob/main/class-notes/cookie-session/server.js)
+
+2. Online resources
+- https://www.w3schools.com/tags/tag_fieldset.asp
+- (didn't use) virtual keyboard: https://furcan.github.io/KioskBoard/
+- font website (tomorrow font) https://www.figma.com/resource-library/futuristic-fonts/
