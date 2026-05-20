@@ -9,12 +9,12 @@ tags: ["documentation"]
 ---
 
 ## Project Links
-1. **[Live Project]()**
+1. Live Project **[link]()**
 
 
 2. *Group Member's blogs:*
-  - - [Gabby's Blog Site]()
-  - - [Ivy Blog Site]()
+  - - Gabby's Blog Site **[link]]()**
+  - - Ivy Blog Site **[link]()**
 
 ## Project Overview
 
