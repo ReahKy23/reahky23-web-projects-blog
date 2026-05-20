@@ -51,7 +51,7 @@ This general story behing our project, is that this automous computer, "Mutha" h
 **project resource links**
 1. class notes:
 - [Class 7 cookies integration](https://github.com/samheckle/hunter-web-design-projects-sp-26/blob/main/class-notes/cookie-session/server.js)
-- [Cookies and Express Sessions](https://github.com/samheckle/hunter-web-design-projects-sp-26/blob/main/class-notes/cookie-session/server.js)
+- [Cookies and Express Sessions](https://github.com/samheckle/web-projects-fa-25/blob/main/classes/class_13/readme.md)
 
 2. Online resources
 - https://www.w3schools.com/tags/tag_fieldset.asp
