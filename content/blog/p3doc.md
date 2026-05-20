@@ -20,6 +20,8 @@ tags: ["documentation"]
 
 This general story behing our project, is that this automous computer, "Mutha" has been stranded in space for some time after a mission gone wrong killed its crew. It now floats across space aimlessly. This is the first time it has come in contact with a human (the user) in years. It wants the user to explain to it the meaning of man.
 
+### Project Design Inspiration and Concept
+
 ### My Contributions
 
 1. Project Repo and File set up
