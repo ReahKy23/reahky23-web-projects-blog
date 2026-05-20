@@ -45,10 +45,9 @@ This general story behing our project, is that this automous computer, "Mutha" h
 ### Future Iterations
 
 1. Sound elements, It would be cool if there was a sound element in the back of the window
-
-2. Including the cookies and express sessions to manipulate the viewports returning users have in
-
-3. It would be really cool to implement a virtual keyboard. I did have one called kioskboard and it was working in terms of the text showing up on screen and in the database on the back end. The only issue is that I couldn't manipulate the css. I was literally trying for 45 minutes to see what css classes were and trid chaning teh attributes but it wasnt working. So i forewent the virtual keyboard element.
+2. I think a timed animation that hints to the user to click/ move mouse onto the computer.
+3.  Including the cookies and express sessions to manipulate the viewports returning users have in
+4. It would be really cool to implement a virtual keyboard. I did have one called kioskboard and it was working in terms of the text showing up on screen and in the database on the back end. The only issue is that I couldn't manipulate the css. I was literally trying for 45 minutes to see what css classes were and trid chaning teh attributes but it wasnt working. So i forewent the virtual keyboard element.
 
 **project resource links**
 1. class notes:
