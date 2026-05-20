@@ -13,7 +13,7 @@ tags: ["documentation"]
 
 
 2. *Group Member's blogs:*
-  - - Gabby's Blog Site **[link]()**
+  - - Gabby's Blog Site **[link](https://gabasha00.github.io/gabs-web-design-blog/blog/project3/)**
   - - Ivy Blog Site **[link](https://portorfolio.github.io/blog/blog/project3/)**
 
 ## Project Overview
